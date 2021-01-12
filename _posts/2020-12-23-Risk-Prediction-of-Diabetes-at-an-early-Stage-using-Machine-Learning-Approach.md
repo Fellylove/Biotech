@@ -14,7 +14,9 @@ Diabetes is the fastest growing chronic life-threatening diseases that affect mo
 
 For this report, other metabolic indicators were considered so as to diagnose the people who were pre-diabetic. The diabetes medical dataset (Early Stage diabetes dataset) has been collected from the University of California, Irvine (UCI) machine learning repository (https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.)
 
-The study question of this project is to utilize both common and less common symptoms for the early prediction of diabetes.
+The study question is: **The study question: How can both common and less common diabetes symptoms be utilized for its early prediction?**
+
+Here is a github link if you wish to follow along; https://github.com/Fellylove/Buildweek-projects/blob/main/Early_Diabetes_prediction_portifolio_project.ipynb
  
 Data description:
 The data shape of this dataset has 16 attributes that will be used to predict the outcomes, class variable positive(which indicates that an individual is diabetic and class variable Negative( which indicates that an doesn’t have diabetes). We have 16 attributes that were used to predict the diabetic Class. All the attributes except Age have categorical data with two unique outcomes. The ages of the patients ranged between 16 and 90 years. There are no missing values in the data set. 61.5% of the patients had diabetes and 38.5% didn't have diabetes. 37% and 67% of the patients were female and male respectively. 90% and 45%  of the women and men, respectively, had diabetes.
@@ -62,5 +64,9 @@ The Multi-layer Perceptron was the neural network of choice because of it’s ex
 mlp = MLPClassifier(hidden_layer_sizes=(11,11,11), max_iter=1000)  
 mlp.fit(X_train, y_train.values.ravel())
  
-After training the data, predictions of the test data was made and finally the performance of allogarithm was evaluated. From the confusion matrix, 5 out of 104 patients were miss classified and resulted in accuracy of 95% and F-score of 94.5%, which are good prediction indicators. 
+After training the data, predictions of the test data was made and finally the performance of allogarithm was evaluated. From the confusion matrix, 6 out of 104 patients were miss classified and resulted in accuracy of 94% and F-score of 94.5%, which are good prediction indicators. *The MLP machine model predicted diabetes with a 94% accurancy. Out of 104 samples only 6 patients were mis-classified. ** **Both common and less common diabetes symptoms can be utilized for its early prediction using machine learning approach. MLP machine learning model is a good fit because of its accurance*
+
+
+
+
 

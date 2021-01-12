@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Build week 1 Portifolio Project
-subtitle: Risk Prediction of Diabetes at an Early Stage using Machine Learning Approach
+title: Risk Prediction of Diabetes at an Early Stage using Machine Learning Approach
+subtitle: Portifolio Project
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
